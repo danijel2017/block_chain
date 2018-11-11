@@ -120,16 +120,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        // vSeeds.emplace_back("seed.grailum.sipa.be"); // Pieter Wuille, only supports x1, x5, x9, and xd
-        // vSeeds.emplace_back("dnsseed.bluematt.me"); // Matt Corallo, only supports x9
-        // vSeeds.emplace_back("dnsseed.grailum.dashjr.org"); // Luke Dashjr
-        // vSeeds.emplace_back("seed.grailumstats.com"); // Christian Decker, supports x1 - xf
-        // vSeeds.emplace_back("seed.grailum.jonasschnelli.ch"); // Jonas Schnelli, only supports x1, x5, x9, and xd
-        // vSeeds.emplace_back("seed.GXM.petertodd.org"); // Peter Todd, only supports x1, x5, x9, and xd
-        // vSeeds.emplace_back("seed.grailum.sprovoost.nl"); // Sjors Provoost
-
-        vFixedSeeds.clear();
-        vSeeds.clear();
+        // vSeeds.emplace_back("x.x.x.x");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,97);  // prefix: g
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,38);   // prefix: G 
@@ -247,10 +238,9 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from rpc: getchaintxstats 4096 0000000000000037a8cd3e06cd5edbfe9dd1dbcc5dacab279376ef7cfc2b4c75
-            /* nTime    */ 1531929919,
-            /* nTxCount */ 19438708,
-            /* dTxRate  */ 0.626
+            0,
+            0,
+            0
         };
 
         /* enable fallback fee on testnet */
