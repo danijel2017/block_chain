@@ -5,7 +5,7 @@ Setup
 ---------------------
 Grailum Core is the original Grailum client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Grailum transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Grailum Core, visit [grailumcore.org](https://grailumcore.org/en/releases/).
+To download Grailum Core, visit [grailumlab.com](https://grailumlab.com/en/releases/).
 
 Running
 ---------------------

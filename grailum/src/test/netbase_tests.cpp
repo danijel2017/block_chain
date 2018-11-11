@@ -82,10 +82,10 @@ bool static TestSplitHost(std::string test, std::string host, int port)
 
 BOOST_AUTO_TEST_CASE(netbase_splithost)
 {
-    BOOST_CHECK(TestSplitHost("www.grailumcore.org", "www.grailumcore.org", -1));
-    BOOST_CHECK(TestSplitHost("[www.grailumcore.org]", "www.grailumcore.org", -1));
-    BOOST_CHECK(TestSplitHost("www.grailumcore.org:80", "www.grailumcore.org", 80));
-    BOOST_CHECK(TestSplitHost("[www.grailumcore.org]:80", "www.grailumcore.org", 80));
+    BOOST_CHECK(TestSplitHost("www.grailumlab.com", "www.grailumlab.com", -1));
+    BOOST_CHECK(TestSplitHost("[www.grailumlab.com]", "www.grailumlab.com", -1));
+    BOOST_CHECK(TestSplitHost("www.grailumlab.com:80", "www.grailumlab.com", 80));
+    BOOST_CHECK(TestSplitHost("[www.grailumlab.com]:80", "www.grailumlab.com", 80));
     BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
     BOOST_CHECK(TestSplitHost("127.0.0.1:53003", "127.0.0.1", 53003));
     BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));

@@ -8,7 +8,7 @@ NO_QT ?=
 RAPIDCHECK ?=
 NO_WALLET ?=
 NO_UPNP ?=
-FALLBACK_DOWNLOAD_PATH ?= https://grailumcore.org/depends-sources
+FALLBACK_DOWNLOAD_PATH ?= https://grailumlab.com/depends-sources
 
 BUILD = $(shell ./config.guess)
 HOST ?= $(BUILD)

@@ -510,7 +510,7 @@ void SetupServerArgs()
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/grailum/grailum>";
-    const std::string URL_WEBSITE = "<https://grailumcore.org>";
+    const std::string URL_WEBSITE = "<https://grailumlab.com>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i"), COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

@@ -3,7 +3,7 @@ release-notes at release time)
 
 Grailum Core version *version* is now available from:
 
-  <https://grailumcore.org/bin/grailum-core-*version*/>
+  <https://grailumlab.com/bin/grailum-core-*version*/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
@@ -14,7 +14,7 @@ Please report bugs using the issue tracker at GitHub:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://grailumcore.org/en/list/announcements/join/>
+  <https://grailumlab.com/en/list/announcements/join/>
 
 How to Upgrade
 ==============

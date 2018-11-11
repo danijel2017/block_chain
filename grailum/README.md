@@ -3,7 +3,7 @@ Grailum Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/grailum/grailum.svg?branch=master)](https://travis-ci.org/grailum/grailum)
 
-https://grailumcore.org
+https://grailumlab.com
 
 What is Grailum?
 ----------------
@@ -15,8 +15,8 @@ out collectively by the network. Grailum Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Grailum Core software, see https://grailumcore.org/en/download/, or read the
-[original whitepaper](https://grailumcore.org/grailum.pdf).
+the Grailum Core software, see https://grailumlab.com/en/download/, or read the
+[original whitepaper](https://grailumlab.com/grailum.pdf).
 
 License
 -------

@@ -85,7 +85,7 @@ Ensure gitian-builder is up-to-date:
 
     pushd ./gitian-builder
     mkdir -p inputs
-    wget -P inputs https://grailumcore.org/cfields/osslsigncode-Backports-to-1.7.1.patch
+    wget -P inputs https://grailumlab.com/cfields/osslsigncode-Backports-to-1.7.1.patch
     wget -P inputs http://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz
     popd
 
@@ -292,11 +292,11 @@ grailum.org (see below for grailum.org update instructions).
 
   - grailum-dev and grailum-core-dev mailing list
 
-  - Grailum Core announcements list https://grailumcore.org/en/list/announcements/join/
+  - Grailum Core announcements list https://grailumlab.com/en/list/announcements/join/
 
-  - grailumcore.org blog post
+  - grailumlab.com blog post
 
-  - grailumcore.org RPC documentation update
+  - grailumlab.com RPC documentation update
 
   - Update title of #grailum on Freenode IRC
 
