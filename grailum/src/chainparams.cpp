@@ -71,8 +71,8 @@ public:
         consensus.BIP65Height = 388381; // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
         consensus.BIP66Height = 363725; // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
-        consensus.nPowTargetSpacing = 1 * 30;   // 0.5 minutes
+        consensus.nPowTargetTimespan = 17 * 60 * 60;
+        consensus.nPowTargetSpacing = 1 * 30;
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
@@ -95,7 +95,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x00000000d7f289165f813e5d0f89b7c314a9591291159c1ee2017985ca37dd39");
+        consensus.defaultAssumeValid = uint256S("0x000000006ad62370ddc3f7bf2cc6e541198209f831b8db5d9fbe64038edfd2fb");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -109,11 +109,11 @@ public:
         nDefaultPort = 53003;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1540469382, 1881022038, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1542263688, 1418289216, 0x1d00ffff, 1, 100 * COIN);
         
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000000d7f289165f813e5d0f89b7c314a9591291159c1ee2017985ca37dd39"));
-        assert(genesis.hashMerkleRoot == uint256S("0x6869d60fc243626041f8901c26dd258e8cbecef5b0c7041b560ae266261ee14c"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000006ad62370ddc3f7bf2cc6e541198209f831b8db5d9fbe64038edfd2fb"));
+        assert(genesis.hashMerkleRoot == uint256S("0x6c181edcc0fd8d5aafb442bb146408110b848b75f7c10808f79acd954609bfc6"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
@@ -138,12 +138,12 @@ public:
 
         checkpointData = {
             {
-                { 0, uint256S("0x00000000d7f289165f813e5d0f89b7c314a9591291159c1ee2017985ca37dd39")},
+                { 0, uint256S("0x000000006ad62370ddc3f7bf2cc6e541198209f831b8db5d9fbe64038edfd2fb")},
             }
         };
 
         chainTxData = ChainTxData{
-            /* nTime    */ 1540469382,
+            /* nTime    */ 1542263688,
             /* nTxCount */ 1,
             /* dTxRate  */ 1.0
         };
